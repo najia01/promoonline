@@ -8,10 +8,12 @@
     </div>
     <!-- pour ajouter un widget -->
     <div class="footer-span">
-       
+
         <?php dynamic_sidebar('footer1'); ?>
     </div>
-
+    <div class="footer-icon">
+        <?php dynamic_sidebar('footer1'); ?>
+    </div>
 
 </footer>
 
@@ -20,7 +22,7 @@
 
 wp_enqueue_script('lineicons', 'https://cdn.lineicons.com/2.0/LineIcons.js', array(), null, true);
 
-wp_footer();?>
+wp_footer(); ?>
 
 
 </body>
